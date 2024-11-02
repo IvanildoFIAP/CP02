@@ -115,5 +115,35 @@ section{
 }
 
 form{
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+form label{
+    margin: 10px;
+    font-size: 16px;
+}
+
+form input{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form .btn{
+    background-color: #009590;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form .btn:hover{
+    background-color: #009590;
 }
