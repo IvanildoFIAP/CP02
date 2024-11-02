@@ -1,7 +1,12 @@
 body{
     background-color: rgb(29, 29, 29);
     font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
+    color: #e4edea;
+}
+
+body h2{
+    font-size: 32px;
+    text-align: center;
 }
 
 header{
@@ -82,7 +87,13 @@ section{
 }
 
 #sobre{
-    margin-top: 50px
+    margin: 50px auto;
+    max-width: 75%;
+}
+
+#sobre p{
+    text-align: center;
+    line-height: 1.35em;
 }
 
 #sobre h2{
@@ -96,10 +107,15 @@ section{
 #participantes .container img{
     width: 100%;
     max-height: 350px;
+    border-radius: 17px 17px 0 0;
 }
 
 .part-card{
-    padding: 0 15px;
+    margin: 0 15px;
+    border: 1px solid #333333;
+    border-radius: 17px;
+    background-color: #262626;
+    box-shadow: 0 0 32px rgba(0 0 0 / 40%);
 }
 
 .part-info{
@@ -146,4 +162,10 @@ form .btn{
 
 form .btn:hover{
     background-color: #009590;
+}
+
+hr{
+    margin: 50px auto;
+    border-color: #383838;
+    max-width: 800px;
 }
