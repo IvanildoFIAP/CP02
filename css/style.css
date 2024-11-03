@@ -93,6 +93,7 @@ header nav ul li:hover{
 
 /* ESTILO DO CORPO*/
 
+/* Estilo do banner */
 .banner{
     background-image: url(../img/mercedes-banner.jpg);
     height: 600px;
@@ -144,6 +145,8 @@ header nav ul li:hover{
     bottom: 80px;
 }
 
+/* Estilo seção Sobre */
+
 #sobre{
     margin: 100px auto 0;
     max-width: 75%;
@@ -153,6 +156,8 @@ header nav ul li:hover{
     text-align: center;
     line-height: 1.5em;
 }
+
+/* Estilo seção Participantes*/
 
 #participantes .container{
     display: flex;
@@ -197,6 +202,8 @@ header nav ul li:hover{
 .part-info p{
     margin-bottom: 5px;
 }
+
+/* Estilo seção Agenda */
 
 .prog-row{
     display: flex;
@@ -282,4 +289,14 @@ form .btn{
 
 form .btn:hover{
     background-color: #007773;
+}
+
+/* ESTILO DO RODAPÉ */
+
+footer{
+    background-color: #181818;  
+    padding: 25px 0;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
 }
